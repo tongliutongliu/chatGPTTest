@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 # 设置API密钥
-openai.api_key = st.secrets["key"]
+openai.api_key = "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"
 
 # 设置模型ID
 model_engine = "text-davinci-003"
